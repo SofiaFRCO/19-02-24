@@ -5,7 +5,7 @@ var txtLogin = document.getElementById("txtLogin");
 var txtSenha = document.getElementById("txtSenha");
 
 export const  fazerLogin = (e) => {
-    if (txtLogin.value == login && txtSenha == senha){
+    if (txtLogin.value == login && txtSenha.value == senha){
         console.log("Acesso liberado");
  
     }else{
